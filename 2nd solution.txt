@@ -1,0 +1,13 @@
+def unique(str):    
+	index=-1
+    	s=""    
+	for i in str:
+        	if str.count(i)==1:            
+			s+=i
+            		break        
+		else:
+            		index+=1    
+	print(str.index(s))
+
+
+unique("loveleetcode")
